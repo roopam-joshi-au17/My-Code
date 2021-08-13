@@ -1,0 +1,64 @@
+Datatypes in python-
+Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data.
+There are 4 types of default datatypes in python i.e 
+	a)integer-
+		It contains positive or negative whole numbers. In Python there is no limit to how long an integer value can be. 
+		example:- 10,20,99,etc
+	b)string-
+		A string is a collection of one or more characters put in a single quote or double-quote.
+		example:- "alphabet",'eys',etc
+	c)float-
+		It is a real number with floating point representation. It is specified by a decimal point.
+		example:- 5.0,3.7,etc
+	d)boolean-
+		The bool data type is used to represent boolean values i.e True or False. The data type can't contain any other value.
+		
+Typecating-
+Typecasting is the method to convert the variable data type into a certain data type.
+
+Examples each of typecasting between each of the following types:
+a. string to boolean
+b. integer to boolean
+c. boolean to string
+d. string to integer
+ 
+a)string to boolean
+	i)      a="black"
+		print(a,type(a))
+		a = bool(a)
+		print(a, type(a))
+	ii)     a="white"
+		print(a,type(a))
+		a = bool(a)
+		print(a, type(a))
+b)integer to boolean
+	i)      a= 25
+		print(a,type(a))
+		a = bool(a)
+		print(a, type(a))
+	ii)     a=55
+		print(a,type(a))
+		a = bool(a)
+		print(a, type(a))
+a)boolean to string
+	i)      a= True
+		print(a,type(a))
+		a = str(a)
+		print(a, type(a)))
+	ii)     a= False
+		print(a,type(a))
+		a = str(a)
+		print(a, type(a))
+b)string to integer
+	i)      a= "18700"
+		print(a,type(a))
+		a = int(a)
+		print(a, type(a))
+	ii)     a="32876"
+		print(a,type(a))
+		a = int(a)
+		print(a, type(a))
+
+
+
+

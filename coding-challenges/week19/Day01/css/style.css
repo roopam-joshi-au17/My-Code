@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    margin: 5px;
+    padding: 20px;
+    border: solid 1px rgb(195, 226, 195);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color:black;
+    text-decoration: none;
+    box-shadow: 4px 4px 5px grey ;
+}
+a:hover{
+    transform: scale(2,2);
+    transition-duration: 2s;
+
+}
+.Primary{
+    background-color: #007bff;
+    color: white;
+}
+
+.Success{
+    background-color: #28a745;
+    color: white;
+}
+
+.Info{
+    background-color: #17a2b8;
+    color: white;
+}
+
+.Warning{
+    background-color: #ffc107;
+    color: white;
+}
+
+.Danger{
+    background-color: #dc3545;
+    color: white;
+}
